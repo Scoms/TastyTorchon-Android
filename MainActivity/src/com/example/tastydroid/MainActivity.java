@@ -52,6 +52,16 @@ public class MainActivity extends Activity {
 					}
 				});
 
+				Button btn_search = (Button) findViewById(R.id.btn_search);
+				btn_search.setOnClickListener(new View.OnClickListener() {
+
+					/* Method called on click */
+					public void onClick(View view) {
+						Intent launchTutorial;							
+						launchTutorial = new Intent(getBaseContext(), CircuitSelection.class);
+						startActivity(launchTutorial);
+					}
+				});
 	}
 
 	@Override

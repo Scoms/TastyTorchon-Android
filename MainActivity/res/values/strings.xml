@@ -5,5 +5,7 @@
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
     <string name="lbl_scan">Scan</string>
+    <string name="lbl_recherche">Lancer la recherche</string>
+    <string name="lbl_pick">Choisir le circuit</string>
 
 </resources>
