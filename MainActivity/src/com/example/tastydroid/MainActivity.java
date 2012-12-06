@@ -9,6 +9,8 @@ import android.content.SharedPreferences;
 import android.content.DialogInterface.OnClickListener;
 import android.content.SharedPreferences.Editor;
 import android.view.Menu;
+import android.view.View;
+import android.widget.Button;
 import android.widget.RadioButton;
 
 public class MainActivity extends Activity {
@@ -38,6 +40,18 @@ public class MainActivity extends Activity {
 							});
 					alertbox.show();
 				}
+				// Setting the validation Button.
+				Button btn = (Button) findViewById(R.id.btn_scan);
+				btn.setOnClickListener(new View.OnClickListener() {
+
+					/* Method called on click */
+					public void onClick(View view) {
+						Intent launchTutorial;							
+						launchTutorial = new Intent(getBaseContext(), Scan.class);
+						startActivity(launchTutorial);
+					}
+				});
+
 	}
 
 	@Override

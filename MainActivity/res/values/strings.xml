@@ -4,5 +4,6 @@
     <string name="app_name">TastyDroid</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
+    <string name="lbl_scan">Scan</string>
 
 </resources>
