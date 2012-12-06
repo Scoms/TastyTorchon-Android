@@ -28,4 +28,10 @@
         android:layout_height="wrap_content"
         android:text="@string/lbl_scan" />
 
+    <Button
+        android:id="@+id/btn_geo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_geo" />
+
 </LinearLayout>

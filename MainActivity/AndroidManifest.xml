@@ -26,6 +26,7 @@
         <activity android:name="Tutorial"></activity>
         <activity android:name="CircuitCurrent"></activity>
         <activity android:name="CircuitSelection"></activity>
+        <activity android:name="Geoloc"></activity>
     </application>
 
 </manifest>

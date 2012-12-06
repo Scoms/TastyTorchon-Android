@@ -7,5 +7,6 @@
     <string name="lbl_scan">Scan</string>
     <string name="lbl_recherche">Lancer la recherche</string>
     <string name="lbl_pick">Choisir le circuit</string>
+    <string name="btn_geo">Lancer geoloc</string>
 
 </resources>

@@ -62,6 +62,17 @@ public class MainActivity extends Activity {
 						startActivity(launchTutorial);
 					}
 				});
+				
+				Button btn_geo = (Button) findViewById(R.id.btn_geo);
+				btn_geo.setOnClickListener(new View.OnClickListener() {
+
+					/* Method called on click */
+					public void onClick(View view) {
+						Intent launchTutorial;							
+						launchTutorial = new Intent(getBaseContext(), Geoloc.class);
+						startActivity(launchTutorial);
+					}
+				});
 	}
 
 	@Override
