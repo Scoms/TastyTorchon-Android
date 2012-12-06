@@ -22,7 +22,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.tastydroid.Tutorial"></activity>
+        <activity android:name="Scan"></activity>
+        <activity android:name="Tutorial"></activity>
     </application>
 
 </manifest>
