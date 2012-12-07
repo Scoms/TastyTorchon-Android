@@ -8,5 +8,8 @@
     <string name="lbl_recherche">Lancer la recherche</string>
     <string name="lbl_pick">Choisir le circuit</string>
     <string name="btn_geo">Lancer geoloc</string>
+    <string name="txt_circuit">Circuit</string>
+    <string name="txt_strasbourg">Strasbourg</string>
+    <string name="lbl_position">Verifier ma position</string>
 
 </resources>
