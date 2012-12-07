@@ -8,11 +8,16 @@
         android:minSdkVersion="9"
         android:targetSdkVersion="9" />
 
+   	<uses-permission android:name="android.permission.INTERNET" />
+   	
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+        
+    	<uses-library android:name="com.google.android.maps" />
+    	
         <activity
             android:name="com.example.tastydroid.MainActivity"
             android:label="@string/app_name" >

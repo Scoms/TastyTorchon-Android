@@ -8,5 +8,6 @@
     <string name="lbl_recherche">Lancer la recherche</string>
     <string name="lbl_pick">Choisir le circuit</string>
     <string name="btn_geo">Lancer geoloc</string>
+    <string name="mapKey">50:31:1D:D4:68:3C:91:27:3F:4E:B4:D3:07:A8:3D:58:0F:41:1B:EE</string>
 
 </resources>
